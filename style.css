@@ -1,0 +1,57 @@
+@font-face{
+    font-family: "Super Plumber Bros Regular";
+    src: url(SuperPlumberBrothers-y00V.ttf) format("truetype");
+ }
+  
+ html{
+    background-color: black;
+    font-size: 40px;
+    color: rgb(194, 5, 5);
+    border: .65rem solid rgb(194, 5, 5);
+    font-family:"Super Plumber Bros Regular";
+    text-shadow: -1px -1px 0 rgb(5, 82, 235), 1px -1px 0 rgb(5, 82, 235), -1px 1px 0 rgb(5, 82, 235), 1px 1px 0 rgb(5, 82, 235);
+ }
+  
+ select {
+    top:100px;
+    left:100px;
+    width:20rem;
+    font-size:40px;
+    padding:0;
+    color: rgb(194, 5, 5);
+    font-family:"Super Plumber Bros Regular";
+    text-shadow: -1px -1px 0 rgb(5, 82, 235), 1px -1px 0 rgb(5, 82, 235), -1px 1px 0 rgb(5, 82, 235), 1px 1px 0 rgb(5, 82, 235);
+    background-color: black;
+ }
+  
+ input[type="submit"]{
+    font-family:"Super Plumber Bros Regular";
+    text-shadow: -1px -1px 0 rgb(5, 82, 235), 1px -1px 0 rgb(5, 82, 235), -1px 1px 0 rgb(5, 82, 235), 1px 1px 0 rgb(5, 82, 235);
+    color: rgb(194, 5, 5);
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    background-color: yellow;
+ }
+  
+ input[type="reset"]{
+    font-family:"Super Plumber Bros Regular";
+    text-shadow: -1px -1px 0 rgb(5, 82, 235), 1px -1px 0 rgb(5, 82, 235), -1px 1px 0 rgb(5, 82, 235), 1px 1px 0 rgb(5, 82, 235);
+    color: rgb(194, 5, 5);
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: yellow;
+ }
+
+ input[type="button"]{
+    font-family:"Super Plumber Bros Regular";
+    text-shadow: -1px -1px 0 rgb(5, 82, 235), 1px -1px 0 rgb(5, 82, 235), -1px 1px 0 rgb(5, 82, 235), 1px 1px 0 rgb(5, 82, 235);
+    color: rgb(194, 5, 5);
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: yellow;
+ }
+ 
