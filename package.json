@@ -1,0 +1,20 @@
+{
+  "name": "videogames",
+  "version": "1.0.0",
+  "description": "Will provide information about video games.",
+  "main": "VG_catalog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chibueze Uzomah",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "igdb-api-node": "^5.0.2",
+    "mongodb": "^4.12.1"
+  }
+}
