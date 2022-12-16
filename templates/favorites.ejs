@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+   <head>
+       <meta charset="utf-8" />
+       <title>Favorite Games</title>
+       <link rel="stylesheet" href="styles/style.css" type="text/css" />
+       <link rel="stylesheet"
+           href="https://fonts.google.com/specimen/Rubik+Dirt?query=rubik+dirt"
+           type="text/css"/>
+   </head>
+ 
+   <body>
+      <h1>Favorite Games</h1>
+        <div>
+            <%- itemsTable %>
+        </div>
+        <form action="./success" method="post">
+            <label>Enter a name to add these games to your favorites: 
+                <input id="user" type="text" name="name">  
+            </label>
+            <input type="submit" value="Add Games">
+        </form>
+        <br><br>
+
+        <a href="/">Return HOME</a>  
+   </body>
+</html>
